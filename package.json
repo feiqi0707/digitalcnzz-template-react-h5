@@ -5,9 +5,9 @@
     "author": "{{author}}",
     "private": true,
     "scripts": {
-        "start": "umi dev",
+        "dev": "umi dev",
         "proxy": "MOCK=none umi dev",
-        "build": "umi build",
+        "build:prod": "umi build",
         "analyze": "ANALYZE=1 umi build",
         "tslint": "tslint -p . -c tslint.json"
     },
